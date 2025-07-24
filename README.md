@@ -68,32 +68,45 @@ into one PDF file per date and saved in the current working directory.
 i. datetime:
  Converting date strings to datetime dates for a higher level of control and functionality, such as adding dates and
  comparing them.
+
 ii. sys:
  Directly getting user input from the terminal when beginning program execution and exiting/terminating the program in
  case of any error with a proper exit message.
+
 iii. re:
  Using the search function for a higher level of pattern matching and string verification using Regular Expressions.
+
 iv. os:
  Dynamically generate the path for the final PDF file as per the current working directory, as well as create the plots
  directory upon program execution and user request verification to store generated graphs.
+
 v. shutil:
  Specifically, the rmtree method to delete the plots directory once the PDF file is generated.
+
 vi. matplotlib
  Main module used for generating graphs
+
 vii. numpy:
  Specifically, the array method is used to help with graph generation.
+
 viii. io:
  Specifically, the BytesIO method for storing the requested condition text image in memory without actually saving the
  file.
+
 ix. PIL:
  To help operate the graph image files.
+
 x. termcolor:
  Specifically, the colored method to print colored text to the terminal
+
 xi. emoji:
  Specifically, the emojize method to print emojis to the terminal given their character code
+
 xii. time:
  Specifically, the sleep function adds a delay for the loading... animations to make them smoother.
+
 xiii. requests:
  Specifically, the get function is used to obtain information from a URL.
+ 
 xiv. fpdf
  The main library used to generate the PDF and save it.
