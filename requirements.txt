@@ -1,0 +1,15 @@
+matplotlib
+numpy
+termcolor
+emoji
+requests
+fpdf
+pytest
+datetime
+time
+PIL
+sys
+re
+os
+io
+shutil
